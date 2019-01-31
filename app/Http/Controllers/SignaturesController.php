@@ -10,4 +10,9 @@ class SignaturesController extends Controller
     {
         return view('signatures.index');
     }
+
+    public function create()
+    {
+        return view('signatures.sign');
+    }
 }

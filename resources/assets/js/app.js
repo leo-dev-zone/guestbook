@@ -15,6 +15,12 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+Vue.component('paginate', require('vuejs-paginate'));
+
+Vue.component('signatures', require('./components/Signatures.vue'));
+Vue.component('signature-form', require('./components/SignatureForm.vue'));
+
+
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
 const app = new Vue({
